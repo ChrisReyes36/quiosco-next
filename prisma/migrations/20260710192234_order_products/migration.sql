@@ -3,7 +3,7 @@ CREATE TABLE "Order" (
     "id" SERIAL NOT NULL,
     "name" TEXT NOT NULL,
     "total" DOUBLE PRECISION NOT NULL,
-    "date" TIMESTAMP(3) NOT NULL,
+    "date" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "status" BOOLEAN NOT NULL DEFAULT false,
     "orderReadyAt" TIMESTAMP(3),
 
