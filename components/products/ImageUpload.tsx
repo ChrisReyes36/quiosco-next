@@ -55,6 +55,7 @@ export default function ImageUpload({ image }: { image: string | undefined }) {
                   fill
                   src={getImagePath(image)}
                   alt="Imagen Producto"
+                  className="object-contain"
                 />
               </div>
             </div>
