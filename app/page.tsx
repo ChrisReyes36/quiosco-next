@@ -1,7 +1,5 @@
+import { redirect } from "next/navigation";
+
 export default function Home() {
-  return (
-    <>
-      <h2 className="font-bold">hola</h2>
-    </>
-  );
+  redirect("/order/cafe");
 }
